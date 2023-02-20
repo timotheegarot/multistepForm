@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Formulaire à plusieurs étapes</title>
+    <title>Multi step form</title>
 </head>
 <body>
     
     <div class="container">
         <form id="form1">
-            <h3>Créer un compte</h3>
-            <input type="text" placeholder="Adresse mail" required>
-            <input type="password" placeholder="Mot de passe" required>
-            <input type="password" placeholder="Confirmer le mot de passe" required>
+            <h3>Create an account</h3>
+            <input type="text" placeholder="Mail address" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Password confirmation" required>
         
             <div class="btn-box">
-                <button type="button" id="next1">Étape suivante</button>
+                <button type="button" id="next1">Next Step</button>
             </div>
         </form>
 
         <form id="form2">
-            <h3>Réseaux sociaux</h3>
+            <h3>Social medias</h3>
             <input type="text" placeholder="Instagram">
             <input type="text" placeholder="GitHub">
             <input type="text" placeholder="Twitter">
         
             <div class="btn-box">
-                <button type="button" id="back1">Retour</button>
-                <button type="button" id="next2">Étape suivante</button>
+                <button type="button" id="back1">Back</button>
+                <button type="button" id="next2">Next Step</button>
             </div>
         </form>
 
         <form id="form3">
-            <h3>Informations personnelles</h3>
-            <input type="text" placeholder="Nom" required>
-            <input type="text" placeholder="Prénom" required>
-            <input type="text" placeholder="Numéro de téléphone" required>
+            <h3>Personal Infos</h3>
+            <input type="text" placeholder="Last name" required>
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Phone number" required>
         
             <div class="btn-box">
-                <button type="button" id="back2">Retour</button>
-                <button type="button" id="submit">S'inscrire</button>
+                <button type="button" id="back2">Back</button>
+                <button type="button" id="submit">Sign In</button>
             </div>
         </form>
 
         <div class="step-row">
             <div id="progress"></div>
-                <div class="step-col"><small>Étape 1</small></div>
-                <div class="step-col"><small>Étape 2</small></div>
-                <div class="step-col"><small>Étape 3</small></div>
+                <div class="step-col"><small>Step 1</small></div>
+                <div class="step-col"><small>Step 2</small></div>
+                <div class="step-col"><small>Step 3</small></div>
         </div>
     </div>
 
